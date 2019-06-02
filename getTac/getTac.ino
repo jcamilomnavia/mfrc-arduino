@@ -1,3 +1,4 @@
+//Librerias para el Lector MFRC522
 #include <SPI.h>
 #include <MFRC522.h>
 

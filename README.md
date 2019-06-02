@@ -4,15 +4,15 @@ Este programa usa un lector RFID, Arduino y ServoMotor para poder simular una ap
 Para este proyecto se requiere:
 * Arduino UNO
 * [Arduino IDE](https://www.arduino.cc/en/Main/Software)
-* Lector RFID MFCR522 (Lector de tarjetas)
+* Lector RFID MFRC522 (Lector de tarjetas)
 * ServoMotor
 
-### Configuracion de la libreria de MFCR52
+### Configuracion de la libreria de MFRC52252
 Una vez tengamos instalado el IDE de Arduino, debemos añadir la libreria que nos permitira usar el MFRC522, para esto iremos al repositorio de GitHub de [miguelbalboa/rfid](https://github.com/miguelbalboa/rfid), ubicaremos el boton de *clone or download* y lo descargaremos como ZIP. Despues de tener el ZIP descargado, abriremos del IDE de Arduino anteriormente instalado, en la barra del menu iremos a *Programa>Incluir libreria>Añadir libreria .ZIP* y seleccionaremos el .ZIP descargado anteriormente del repositorio; finalmente reiniciaremos el IDE de Arduino.
 
-### Esquema de conexion MFCR522 a Arduino UNO
-En este caso, el MFCR522 viene con una tarjeta RFID y un llavero azul que tambien funciona como RFID.
-![alt text](./src/img/mfcr522-kit.jpg "MFCR522 Kit")
+### Esquema de conexion MFRC522 a Arduino UNO
+En este caso, el MFRC522 viene con una tarjeta RFID y un llavero azul que tambien funciona como RFID.
+![alt text](./src/img/MFRC522-kit.jpg "MFRC522 Kit")
 El siguiente es el esquema de como se conectara el Lector RFID a la placa de Arduino UNO, los numeros de los pines son recomendaciones, usted puede colocarlos en los pines deseados siempre y cuando correspondan a los mismos indicados en el archivo *.ino*
 ![alt text](./src/img/rc522-esquema.png "Logo Title Text 1")
 
